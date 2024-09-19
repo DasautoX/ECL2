@@ -1,0 +1,20 @@
+name: ECL2  # Replace with your actual project name
+description: A Dart project to translate a Python repository.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  provider: ^6.0.5  # Add the provider dependency
+  http: ^0.13.5
+  path_provider: ^2.0.11  # Add this line
+  vector_math: ^2.1.1   # For vector operations
+  collection: ^1.17.0   # For collection utilities
+  ffi: ^2.0.1           # For Foreign Function Interface (FFI) if needed
+
+dev_dependencies:
+  test: ^1.16.0         # For running tests
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.3.0        # Move mockito out of flutter_test
